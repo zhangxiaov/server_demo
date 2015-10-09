@@ -28,7 +28,7 @@ typedef int bool;
 #define false -1
 #define true (1 || 0)
 
-int main(int argc, char* argv[])
+int main2(int argc, char* argv[])
 {
     listener_ = CreateListener();
     if (listener_ == -1)
@@ -159,4 +159,5 @@ void Receive(int sock, int availBytes)
 
 void Enqueue(const char* buf, int bytes)
 {
+    
 }
